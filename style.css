@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 body{
     font-family: 'Source Code Pro', monospace;
+    margin: 15% 0px;
 }
 
 .content-box{
@@ -8,7 +9,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     margin: auto;
-    width: 90%;
+    width: 80%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.50px 1px 15px rgb(214, 214, 214);
     border-radius: 10px;
@@ -36,7 +37,7 @@ body{
 form{
     display: grid;
     grid-template-columns: repeat(5,auto);
-    width: 90%;
+    width: 95%;
     margin: auto;
     align-items: center;
     grid-gap: 20px;
